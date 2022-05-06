@@ -21,11 +21,11 @@
         <span>Mon-Sat: 11:00 AM-23:00PM</span>
     </div>
     </div> -->
-    <header class="navbar position-fixed " >
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark vw-100  py-3" id="nav">
-            <div class="container-fluid container-xl mt-4 " id="container">
-            <a class="navbar-brand text-white " href="#">Navbar</a>
-            
+    <header  id="navbar" class="navbar position-fixed " >
+        <nav class="navbar navbar-expand-lg navbar-light vw-100  py-3" id="nav">
+            <div class="container-fluid container-xl mt- " id="container">
+            <a class="navbar-brand text-white " href="#">RESTAURANTLY</a>
+  
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-white"></span>
             </button> 
@@ -33,22 +33,22 @@
             <div class="collapse navbar-collapse ms-5 " id="navbarNavDropdown">
                 <ul class="navbar-nav  ">
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#Home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About</a>
+                    <a class="nav-link text-white" href="#About">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Menu</a>
+                    <a class="nav-link text-white" href="#Menu">Menu</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Specails</a>
+                    <a class="nav-link text-white" href="#Specails">Specails</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Events</a>
+                    <a class="nav-link text-white" href="#Events">Events</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Cherfs</a>
+                    <a class="nav-link text-white" href="#Cherfs">Cherfs</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -72,7 +72,7 @@
                     </ul>
                   </li>
                   <li class="nav-item me-5">
-                    <a class="nav-link text-white" href="#">Contacts</a>
+                    <a class="nav-link text-white" href="#Contacts">Contacts</a>
                   </li>
                   <button class="btn text-warning border border-warning ms-5 ">Book A Table</button>
                 </ul>
@@ -85,11 +85,11 @@
         <div class="container ">
             <h1>Welcome to Restaurantly</h1>
             <h2>subtittle</h2>
-            <button>Our Menu</button>
-            <button>Book A Table</button>
+            <button  class="btn btn-outline-warning text-dark">Our Menu</button>
+            <button class="btn btn-outline-warning text-dark">Book A Table</button>
         </div>
     </section>
-    <section id="About" class="">
+    <section id="About" class=" vh-100 d-flex align-items-center">
                 <div class="container py-5">
             <div class="row">
                 <div class="col-md-6 text-white ">
@@ -108,36 +108,42 @@
     </div>
                 <div class="col-md-6">
                     
-                   <img src="./img/st-826688_960_720.webp" alt="resturant" style="width:700px" class="rounded">
+                   <img src="./img/about.jpg" alt="resturant" style="width:700px" class=" img-fluid rounded">
                 </div>
             </div>
         </div>
     </section>
-    <section id="Why us" class="bg-dark">
+    <section id="Why us" class="">
         <div class="container py-5">
             <p class="text-secondary">WHY US </p>
-            <h2 class= "text-warning mb-5">Why Choose Our Restaurant</h2>
+            <h2 class= "text-warning mb5">Why Choose Our Restaurant</h2>
             <div class="row ">
-                <div class="col-lg-4 bg-secondary card  mx-5 " style="width: 300px; height: 300px;">
+                <div class="col-lg-4 bg-secondary card  m-5 " style="width: 300px; height: 300px;">
+                    <div class="card1">
                     <h2 class="py-3">01</h2>
                     <h2>Lorem, ipsum.</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corporis id, 
                         similique, ipsa m ducimus vero distinctio laborum 
                     </p>
                 </div>
-                <div class="col-lg-4 bg-secondary card mx-5 "  style="width: 300px; height: 300px;">
+                </div>
+                <div class="col-lg-4 bg-secondary card m-5 "  style="width: 300px; height: 300px;">
+                    <div class="card2">
                     <h2 class="py-3">02</h2>
                     <h2>Lorem, ipsum.</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corporis id, 
                         similique, ipsam ducimus vero distinctio laborum
                     </p>
                 </div>
-                <div class="col-lg-4 bg-secondary card  mx-5"  style="width: 300px; height: 300px;">
+                </div>
+                <div class="col-lg-4 bg-secondary card  m-5"  style="width: 300px; height: 300px;">
+                    <div class="card3">
                     <h2 class="py-3">03</h2>
                     <h2>Lorem, ipsum.</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corporis id, 
                         similique, ipsam ducimus vero distinctio laborum 
                     </p>
+                </div>
                 </div>
             </div>
 
@@ -150,7 +156,9 @@
 <div class="row">
     <div class="col-md-6">
         <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img src="./img/bread-barrel.jpg" alt="Meal"  class=" img-fluid rounded-circle">
+        </div>
         <div class="col-md-9">
             <p><strong>Meal name</strong></p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolores odio illum quam est? Ipsum provident sequi maiores earum quis!</p>
@@ -159,7 +167,9 @@
     </div>
     <div class="col-md-6">
         <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img src="./img/caesar.jpg" alt="Meal"  class=" img-fluid rounded-circle">
+        </div>
         <div class="col-md-9">
             <p><strong>Meal name</strong></p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolores odio illum quam est? Ipsum provident sequi maiores earum quis!</p>
@@ -168,7 +178,9 @@
     </div>
     <div class="col-md-6">
         <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img src="./img/cake.jpg" alt="Meal"  class=" img-fluid rounded-circle">
+        </div>
         <div class="col-md-9">
             <p><strong>Meal name</strong></p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolores odio illum quam est? Ipsum provident sequi maiores earum quis!</p>
@@ -177,7 +189,9 @@
     </div>
     <div class="col-md-6">
         <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img src="./img/greek-salad.jpg" alt="Meal"  class=" img-fluid rounded-circle">
+        </div>
         <div class="col-md-9">
             <p><strong>Meal name</strong></p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolores odio illum quam est? Ipsum provident sequi maiores earum quis!</p>
@@ -186,7 +200,9 @@
     </div>
     <div class="col-md-6">
         <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img src="" alt="">
+        </div>
         <div class="col-md-9">
             <p><strong>Meal name</strong></p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolores odio illum quam est? Ipsum provident sequi maiores earum quis!</p>
@@ -195,7 +211,9 @@
     </div>
     <div class="col-md-6">
         <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img src="./img/lobster-bisque.jpg" alt="Meal"  class=" img-fluid rounded-circle">
+        </div>
         <div class="col-md-9">
             <p><strong>Meal name</strong></p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolores odio illum quam est? Ipsum provident sequi maiores earum quis!</p>
@@ -204,7 +222,9 @@
     </div>
     <div class="col-md-6">
         <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img src="./img/lobster-roll.jpg" alt="Meal"  class=" img-fluid rounded-circle">
+        </div>
         <div class="col-md-9">
             <p><strong>Meal name</strong></p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolores odio illum quam est? Ipsum provident sequi maiores earum quis!</p>
@@ -213,7 +233,9 @@
     </div>
     <div class="col-md-6">
         <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img src="./img/mozzarella.jpg" alt=" Meal"  class=" img-fluid rounded-circle">
+        </div>
         <div class="col-md-9">
             <p><strong>Meal name</strong></p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolores odio illum quam est? Ipsum provident sequi maiores earum quis!</p>
@@ -222,7 +244,9 @@
     </div>
     <div class="col-md-6">
         <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img src="./img/spinach-salad.jpg" alt=" Meal"  class=" img-fluid rounded-circle">
+        </div>
         <div class="col-md-9">
             <p><strong>Meal name</strong></p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolores odio illum quam est? Ipsum provident sequi maiores earum quis!</p>
@@ -232,7 +256,7 @@
 </div>
         </div>
     </section>
-    <section id="Specails" class="bg-dark">
+    <section id="Specails" class="">
         <div class="container text-light py-3 d-flex flex-column ">
             <p class="">SPECIALS</p>
             <h2 class="">Check Our Specials</h2>
@@ -265,7 +289,9 @@
                                     . Nulla aspernatur maxime ea accusamus vero, 
                                     labore enim possimus nemo culpa voluptatem?</P>
                                 </div>
-                                <div class="col-lg-4"></div>
+                                <div class="col-lg-4">
+                                    <img src="./img/specials-1.png" alt=" sper"  class=" img-fluid rounded-circle">
+                                </div>
                             </div>
                         </div>
                         <div class="tab-pane"id= "tab-2">
@@ -275,7 +301,9 @@
                                         . Nulla aspernatur maxime ea accusamus vero, 
                                         labore enim possimus nemo culpa voluptatem?</P>
                                 </div>
-                                <div class="col-lg-4"></div>
+                                <div class="col-lg-4">
+                                    <img src="./img/specials-2.png" alt=" sper"  class=" img-fluid rounded-circle">
+                                </div>
                             </div>
                         </div>
                             <div class="tab-pane " id="tab-3">
@@ -285,7 +313,9 @@
                                             . Nulla aspernatur maxime ea accusamus vero, 
                                             labore enim possimus nemo culpa voluptatem?</P>
                                     </div>
-                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <img src="./img/specials-3.png" alt=" sper"  class=" img-fluid rounded-circle">
+                                    </div>
                                 </div>
                             </div>
                                 <div class="tab-pane " id="tab-4">
@@ -295,7 +325,9 @@
                                                 . Nulla aspernatur maxime ea accusamus vero, 
                                                 labore enim possimus nemo culpa voluptatem?</P>
                                         </div>
-                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <img src="./img/specials-4.png" alt=" sper"  class=" img-fluid rounded-circle">
+                                        </div>
                                     </div>
                                 </div>
                             <div class="tab-pane" id="tab-5">
@@ -305,7 +337,9 @@
                                                     . Nulla aspernatur maxime ea accusamus vero, 
                                                     labore enim possimus nemo culpa voluptatem?</P>
                                             </div>
-                                            <div class="col-lg-4"></div>
+                                            <div class="col-lg-4">
+                                                <img src="./img/specials-5.png" alt=" sper"  class=" img-fluid rounded-circle">
+                                            </div>
                                      </div>
                             </div>
                 </div>
@@ -329,26 +363,33 @@
 
                   <div class="carousel-item active  " data-bs-interval="10000">
                     <div class="d-flex">
-                    <img src="./img/st-826688_960_720.webp"alt="Events" class="img-fluid" style="width:700px;">                  
-                      <h5 class="ms-3 text-warning">First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>                   
+                    <img src="./img/event-private.jpg"alt="Events" class="img-fluid" style="width:700px;">  
+                    <div class="event-text">
+                        <h5 class="ms-3 text-warning">First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>    
+                    </div>                
+                                     
                   </div>
                   </div>
 
                   <div class="carousel-item " data-bs-interval="2000">
                       <div class="d-flex">
-                        <img src="./img/st-826688_960_720.webp"  alt="Events" class="img-fluid" style="width:700px;">
-                        <h5 class="ms-3 text-warning">Second slide label</h5>
+                        <img src="./img/event-custom.jpg"  alt="Events" class="img-fluid" style="width:700px;">
+                        <div class="event-text">
+                            <h5 class="ms-3 text-warning">Second slide label</h5>
                         <p>Some representative placeholder content for the second slide.</p>
+                        </div>
                     </div>
                       </div>
                   
 
                   <div class="carousel-item   ">
                     <div class="d-flex">
-                    <img src="./img/st-826688_960_720.webp" alt="Events" class="img-fluid" style="width:700px;">
-                      <h5 class="ms-3 text-warning">Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
+                    <img src="./img/event-birthday.jpg" alt="Events" class="img-fluid" style="width:700px;">
+                      <div class="event-text">
+                        <h5 class="ms-3 text-warning">Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
                  </div>
                  </div>
 
@@ -356,7 +397,7 @@
                   </div>
         </div>
     </section>
-    <section id="Reservation" class="bg-dark">
+    <section id="Reservation" class="">
         <div class="container  py-3 ">
             <p>RESERVATION</p>
             <h2 class="text-warning" >Book a Table</h2>
@@ -394,32 +435,27 @@
         <div class="container py-3 pb-5">
             <p>TESTIMONIALS</p>
             <h2 class="text-warning">What they're saying</h2>
-            <div class="owl-carousel">
-                <div> Your content
-                    <img src="./istockphoto-1387784079-170667a (2).jpg"  class=" py-4 rounded-circle " style="width: 250px; height: 250px;" alt="person">
-                     </div>
-                <div> Your Content
-                    <img src="./istockphoto-1387784079-170667a (2).jpg"  class=" py-4 rounded-circle " style="width: 250px; height: 250px;" alt="person">    
-                </div>
+            <div class="owl-carousel ">
+               
                 <div> Your Content 
-                    <img src="./istockphoto-1387784079-170667a (2).jpg"  class=" py-4 rounded-circle " style="width: 250px; height: 250px;" alt="person">
+                    <img src="./img/testimonials-1.jpg"  class=" py-4  mx-2 rounded-circle " style="width: 250px; height: 250px;" alt="person">
                 </div>
                 <div> Your Content
-                    <img src="./istockphoto-1387784079-170667a (2).jpg"  class=" py-4 rounded-circle " style="width: 250px; height: 250px;" alt="person">
+                    <img src="./img/testimonials-2.jpg"  class=" py-4  mx-2  rounded-circle " style="width: 250px; height: 250px;" alt="person">
                  </div>
                 <div> Your Content 
-                    <img src="./istockphoto-1387784079-170667a (2).jpg"  class=" py-4 rounded-circle " style="width: 250px; height: 250px;" alt="person">
+                    <img src="./img/testimonials-3.jpg"  class=" py-4  mx-2  rounded-circle " style="width: 250px; height: 250px;" alt="person">
                 </div>
                 <div> Your Content 
-                    <img src="./istockphoto-1387784079-170667a (2).jpg"  class=" py-4 rounded-circle " style="width: 250px; height: 250px;" alt="person">
+                    <img src="./img/testimonials-4.jpg"  class=" py-4  mx-2  rounded-circle " style="width: 250px; height: 250px;" alt="person">
                 </div>
                 <div> Your Content
-                     <img src="./istockphoto-1387784079-170667a (2).jpg"  class=" py-4 rounded-circle " style="width: 250px; height: 250px;" alt="person">
+                     <img src="./img/testimonials-5.jpg"  class=" py-4  mx-5  rounded-circle " style="width: 250px; height: 250px;" alt="person">
                 </div>
               </div>
         </div>
     </section>
-    <section id="Gallrey" class="bg-dark">
+    <section id="Gallrey" class="">
         <div class="container py-4">
             <P class="text-white">GALLERY</P>
             <h2 class="text-warning">Some photos from Our Restaurant</h2>
@@ -427,56 +463,56 @@
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
                         <a href="" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="./img/restaurant-1837150__340.webp" alt="" class="img-fluid">
+                            <img src="./img/gallery-1.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
                         <a href="" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="./img/st-826688_960_720.webp" alt="" class="img-fluid">
+                            <img src="./img/gallery-2.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
                         <a href="" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="./img/restaurant-1837150__340.webp" alt="" class="img-fluid">
+                            <img src="./img/gallery-3.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
                         <a href="" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="./img/st-826688_960_720.webp" alt="" class="img-fluid">
+                            <img src="./img/gallery-4.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
                         <a href="" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="./img/restaurant-1837150__340.webp" alt="" class="img-fluid">
+                            <img src="./img/gallery-5.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
                         <a href="" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="./img/st-826688_960_720.webp" alt="" class="img-fluid">
+                            <img src="./img/gallery-6.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
                         <a href="" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="./img/restaurant-1837150__340.webp" alt="" class="img-fluid">
+                            <img src="./img/gallery-7.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
                         <a href="" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="./img/st-826688_960_720.webp" alt="" class="img-fluid">
+                            <img src="./img/gallery-8.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -490,7 +526,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card text-white">
-  <img src="./img/coffee-ga2e120898_1920.jpg" class="card-img" alt="...">
+  <img src="./img/chefs-1.jpg" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -500,7 +536,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card text-white">
-  <img src="./img/coffee-ga2e120898_1920.jpg" class="card-img" alt="...">
+  <img src="./img/chefs-2.jpg" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -510,7 +546,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card text-white">
-  <img src="./img/st-826688_960_720.webp" class="card-img" alt="...">
+  <img src="./img/chefs-3.jpg" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -526,8 +562,9 @@
         <div class="container py-4">
             <p class="text-light mt-5">CONTACT</p>
             <h2  class="text-warning">Contact Us</h2>
-            Location
-            
+            <div class="row my-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.445857964623!2d-74.0061377!3d40.7100586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sza!4v1651824513694!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
             <div class="row">   
                 <div class="col-md-4">
                     <div class="container d-flex ">
@@ -595,8 +632,8 @@
             </div>
         </div>
     </section>
-    <Footer id="footer" class="bg-dark">
-        <div class="container">
+    <Footer id="footer" class="bg-dark  ">
+        <div class="container  border-bottom border-top py-5 ">
         <div class="row">
             <div class="col-lg-3 col-md-6 text-light">
                 <H2 class="">RESTAURANTLY</H2>
@@ -642,6 +679,10 @@
 
         </div>
     </div>
+    <div class="container text-center text-white py-3 d-flex flex-column">
+        <p>Copyright <b>Restaurantly</b>.All Rights Reserved</p>
+        <p>Dwsigned by <span>BootstrapMade</span></p>
+    </div>
     </Footer>
 
     <script
@@ -657,8 +698,17 @@
         $(document).ready(function () {
           $(".owl-carousel").owlCarousel({
             autoplay: true,
-            items: 3,
+            items: 2,
             loop: true,
+            // responsive:{
+            //   0:{
+            //       option1:value,
+            //       option2:value,
+
+            //   }
+              
+
+            // }
           
           });
         });
